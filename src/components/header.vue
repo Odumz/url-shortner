@@ -25,7 +25,7 @@
       <div class="mobile-menu lg:hidden">
         <svg
           v-if="showMenu"
-          @click="toggleMenu(), simpleFade()"
+          @click="toggleMenu"
           xmlns="http://www.w3.org/2000/svg"
           width="18"
           height="19"
@@ -37,7 +37,7 @@
         </svg>
         <svg
           v-else
-          @click="simpleFade(), toggleMenu()"
+          @click="toggleMenu"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="11"
