@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --color-cyan: 45, 49, 77;
+        --color-dark-violet: 49, 211, 92;
+        --color-gray: 43, 183, 218;
+        --color-grayish-violet: 150, 152, 166;
+        --color-very-dark-blue: 243, 244, 246;
+        --color-very-dark-violet: 250, 250, 250;
+    }
+}
