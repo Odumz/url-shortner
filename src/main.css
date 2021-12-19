@@ -5,6 +5,7 @@
 @layer base {
     :root {
         --color-cyan: 45, 49, 77;
+        --color-red: 45, 49, 77;
         --color-dark-violet: 49, 211, 92;
         --color-gray: 43, 183, 218;
         --color-grayish-violet: 150, 152, 166;
