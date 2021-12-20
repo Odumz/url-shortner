@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:flex justify-center grid lg:justify-between items-start px-5 lg:px-40 bg-black py-10 lg:py-20"
+    class="lg:flex justify-center grid lg:justify-between items-start px-5 lg:px-40 bg-very-dark-violet py-10 lg:py-20"
   >
     <div class="flex justify-center my-7 lg:my-0">
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
@@ -13,22 +13,22 @@
     <div class="lg:flex lg:w-8/12 lg:text-left text-white justify-between">
       <div class="grid">
         <h1 class="lg:pb-3 pb-6 font-bold mt-5 lg:mt-0">Features</h1>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Link Shortening</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Branded Links</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Analytics</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Link Shortening</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Branded Links</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Analytics</a>
       </div>
       <div class="grid">
         <h1 class="lg:pb-3 pb-6 font-bold mt-5 lg:mt-0">Resources</h1>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Blog</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Developers</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Support</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Blog</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Developers</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Support</a>
       </div>
       <div class="grid">
         <h1 class="lg:pb-3 pb-6 font-bold mt-5 lg:mt-0">Company</h1>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">About</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Our Team</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Careers</a>
-        <a class="lg:pb-1 pb-3 hover:text-green-500" href="">Contact</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">About</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Our Team</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Careers</a>
+        <a class="lg:pb-1 pb-3 hover:text-cyan text-gray font-medium" href="">Contact</a>
       </div>
       <div class="flex justify-evenly text-white my-10 lg:my-0">
         <svg

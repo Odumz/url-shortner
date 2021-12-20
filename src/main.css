@@ -4,12 +4,12 @@
 
 @layer base {
     :root {
-        --color-cyan: 45, 49, 77;
-        --color-red: 45, 49, 77;
-        --color-dark-violet: 49, 211, 92;
-        --color-gray: 43, 183, 218;
-        --color-grayish-violet: 150, 152, 166;
-        --color-very-dark-blue: 243, 244, 246;
-        --color-very-dark-violet: 250, 250, 250;
+        --color-cyan: 43, 207, 207;
+        --color-red: 244, 98, 98;
+        --color-dark-violet: 59, 48, 84;
+        --color-gray: 191, 191, 191;
+        --color-grayish-violet: 158, 154, 167;
+        --color-very-dark-blue: 53, 50, 62;
+        --color-very-dark-violet: 35, 33, 39;
     }
 }
