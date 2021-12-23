@@ -10,7 +10,7 @@
       our advanced statistics dashboard.
     </p>
     <p
-      class="lg:hidden flex text-grayish-violet leading-6 font-semibold lg:text-sm"
+      class="lg:hidden flex justify-center text-grayish-violet leading-6 font-semibold lg:text-sm"
     >
       Track how your links are performing across the web with our advanced
       statistics dashboard.

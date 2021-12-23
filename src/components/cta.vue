@@ -1,7 +1,7 @@
 <template>
   <div class="bg-dark-violet grid lg:flex justify-center justify-items-center">
     <svg
-      class="lg:hidden flex"
+      class="sm:hidden flex"
       xmlns="http://www.w3.org/2000/svg"
       width="375"
       height="300"
@@ -13,7 +13,7 @@
       </g>
     </svg>
     <svg
-      class="hidden lg:flex"
+      class="hidden sm:flex"
       xmlns="http://www.w3.org/2000/svg"
       width="1440"
       height="250"
