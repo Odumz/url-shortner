@@ -2,7 +2,7 @@
   <div class="home pt-3 overflow-hidden">
     <main-header />
     <hero />
-    <shorten-form class="absolute top-11/12" />
+    <shorten-form class="absolute hidden top-11/12" />
     <stats />
     <cta />
     <main-footer />

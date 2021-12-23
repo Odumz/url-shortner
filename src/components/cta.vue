@@ -24,7 +24,7 @@
         />
       </g>
     </svg>
-    <div class="absolute py-20 grid justify-items-center">
+    <div class="absolute grid self-center justify-items-center">
       <p class="font-bold text-white text-2xl lg:pb-4 lg:py-0 py-4">
         Boost your links today
       </p>
