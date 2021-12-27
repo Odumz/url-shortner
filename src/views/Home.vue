@@ -1,8 +1,10 @@
 <template>
-  <div class="home pt-3 overflow-hidden">
+  <div class="home flex flex-col pt-3 overflow-hidden">
     <main-header />
     <hero />
-    <shorten-form class="absolute hidden top-11/12" />
+    <shorten-form
+      class="flex w-10/12 sticky self-center inset-y-6/25 md:inset-y-11/40 lg:inset-y-13/50 xl:inset-y-3/9"
+    />
     <stats />
     <cta />
     <main-footer />

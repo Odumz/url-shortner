@@ -3,8 +3,8 @@
     <svg
       class="sm:hidden flex"
       xmlns="http://www.w3.org/2000/svg"
-      width="375"
-      height="300"
+      width="525"
+      height="250"
     >
       <g fill="#4B3F6B" fill-rule="evenodd">
         <path
@@ -16,7 +16,7 @@
       class="hidden sm:flex"
       xmlns="http://www.w3.org/2000/svg"
       width="1440"
-      height="250"
+      height="200"
     >
       <g fill="#4B3F6B" fill-rule="evenodd">
         <path
@@ -28,7 +28,7 @@
       <p class="font-bold text-white text-2xl lg:pb-4 lg:py-0 py-4">
         Boost your links today
       </p>
-      <buttons>Get Started</buttons>
+      <buttons name="full">Get Started</buttons>
     </div>
   </div>
 </template>

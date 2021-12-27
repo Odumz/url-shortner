@@ -19,7 +19,7 @@
         </div>
         <div class="flex items-center">
           <p class="px-10">Login</p>
-          <buttons>Sign Up</buttons>
+          <buttons name="full">Sign Up</buttons>
         </div>
       </div>
       <div class="mobile-menu lg:hidden">
@@ -46,6 +46,22 @@
             <path d="M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z" />
           </g>
         </svg>
+
+        <div
+          v-if="showMenu"
+          class="w-screen absolute top-17 right-0 z-10 flex justify-center items-start pt-10 h-screen"
+        >
+          <div
+            class="mobile-menu z-10 grid px-5 py-5 rounded-md bg-dark-violet text-white font-bold sm:w-1/4 w-2/3 shadow-md right-16"
+          >
+            <router-link to="/" class="py-4">Features</router-link>
+            <router-link to="#about" class="py-4">Pricing</router-link>
+            <router-link to="#contact" class="pt-4 pb-8">Resources</router-link>
+            <hr class="opacity-20" />
+            <router-link to="#blog" class="pt-8 pb-4">Login</router-link>
+            <buttons name="full" class="pb-4">Sign Up</buttons>
+          </div>
+        </div>
       </div>
     </div>
   </div>
