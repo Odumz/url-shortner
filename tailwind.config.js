@@ -20,9 +20,7 @@ module.exports = {
       screens: {
         xs: "480px",
         mm: "540px",
-        lm: "720px",
         dl: "820px",
-        dlg: "920px",
         "2xl": "1440px",
       },
       inset: {
