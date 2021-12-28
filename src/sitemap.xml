@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://easy-bank-app.vercel.app/</loc>
+    <image:image>
+      <image:loc>https://easy-bank-app.vercel.app/img/image-mockups.edc63e85.png</image:loc>
+      <image:caption>Easy bank mobile app demp</image:caption>
+      <image:title>Easy bank app</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://easy-bank-app.vercel.app/img/image-currency.96de79cf.jpg</image:loc>
+      <image:caption>Receive money in any currency with no fees</image:caption>
+      <image:title>Receive money</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://easy-bank-app.vercel.app/img/image-restaurant.b561f8d5.jpg</image:loc>
+      <image:caption>Treat yourself without worrying about money</image:caption>
+      <image:title>Stay healthy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://easy-bank-app.vercel.app/img/image-plane.c619f6cb.jpg</image:loc>
+      <image:caption>Take your Easybank card wherever you go</image:caption>
+      <image:title>Feel free</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://easy-bank-app.vercel.app/img/image-confetti.1510e4a2.jpg</image:loc>
+      <image:caption>Our invite-only Beta accounts are now live!</image:caption>
+      <image:title>Join the VVIPs!</image:title>
+    </image:image>
+  </url>
+</urlset>
