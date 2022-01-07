@@ -1,11 +1,14 @@
 <template>
-  <div class="home flex flex-col pt-3 overflow-hidden">
+  <div class="home relative flex flex-col pt-3 overflow-hidden">
     <main-header />
     <hero />
     <shorten-form
       class="flex w-10/12 sticky self-center inset-y-6/25 md:inset-y-11/40 lg:inset-y-13/50 xl:inset-y-1/3"
     />
     <stats />
+    <scroll-to-top
+      class="fixed flex w-full top-9/10 inset-x-17/20 mm:inset-x-9/10 md:inset-x-19/20"
+    />
     <cta />
     <main-footer />
   </div>
@@ -15,6 +18,7 @@
 import { defineComponent } from "vue";
 import mainHeader from "@/components/header.vue";
 import mainFooter from "@/components/footer.vue";
+import scrollToTop from "@/components/scrollToTop.vue";
 import shortenForm from "@/components/form.vue";
 import stats from "@/components/stats.vue";
 import cta from "@/components/cta.vue";
@@ -28,6 +32,7 @@ export default defineComponent({
     shortenForm,
     stats,
     cta,
+    scrollToTop,
     hero,
   },
 });

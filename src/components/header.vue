@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center lg:px-40 px-5 py-5">
+  <div class="flex justify-between items-center lg:px-40 px-5 py-5" id="header">
     <!-- logo here -->
     <div class="logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">

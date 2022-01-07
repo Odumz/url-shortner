@@ -1,11 +1,11 @@
 <template>
   <div class="hidden" id="btn">
     <div
-      class="bg-white flex bg-opacity-50 hover:bg-lime-green shadow-lg rounded-full"
+      class="bg-white flex bg-opacity-50 hover:bg-cyan shadow-lg rounded-full"
     >
       <router-link
         to="/"
-        class="p-1 md:p-3 text-dark-blue hover:text-white"
+        class="p-1 md:p-3 text-dark-violet hover:text-white"
         v-scroll-to="'#header'"
         ><div>
           <svg
