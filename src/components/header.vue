@@ -65,19 +65,30 @@
           <div
             class="mobile-menu z-10 grid px-5 py-5 rounded-md bg-dark-violet text-white font-bold sm:w-1/4 w-2/3 shadow-md right-16"
           >
-            <router-link to="#features" class="py-4" v-scroll-to="'#features'"
+            <router-link
+              to="#features"
+              class="py-4"
+              v-scroll-to="'#features'"
+              @click="toggleMenuDelay"
               >Features</router-link
             >
-            <router-link to="" class="py-4">Pricing</router-link>
+            <router-link to="" class="py-4" @click="toggleMenuDelay"
+              >Pricing</router-link
+            >
             <router-link
               to="#resources"
               class="pt-4 pb-8"
               v-scroll-to="'#resources'"
+              @click="toggleMenuDelay"
               >Resources</router-link
             >
             <hr class="opacity-20" />
-            <router-link to="" class="pt-8 pb-4">Login</router-link>
-            <buttons name="full" class="pb-4">Sign Up</buttons>
+            <router-link to="" class="pt-8 pb-4" @click="toggleMenuDelay"
+              >Login</router-link
+            >
+            <buttons name="full" class="pb-4" @click="toggleMenuDelay"
+              >Sign Up</buttons
+            >
           </div>
         </div>
       </div>

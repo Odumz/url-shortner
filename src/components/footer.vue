@@ -1,6 +1,7 @@
 <template>
   <div
     class="lg:flex justify-center grid lg:justify-between items-start px-5 lg:px-40 bg-very-dark-violet py-10 lg:py-20"
+    id="resources"
   >
     <div class="flex justify-center my-7 lg:my-0">
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
