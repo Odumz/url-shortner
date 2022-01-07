@@ -1,5 +1,6 @@
 <template>
   <div class="flex justify-between items-center lg:px-40 px-5 py-5">
+    <!-- logo here -->
     <div class="logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
         <path
@@ -8,21 +9,29 @@
         />
       </svg>
     </div>
+    <!-- menu here -->
     <div class="menu lg:w-5/6 flex">
+      <!-- desktop-menu -->
       <div
         class="desktop-menu hidden w-full lg:flex justify-between items-center"
       >
         <div class="flex items-center">
-          <a href="#features" class="px-5">Features</a>
+          <a href="#features" class="px-5" v-scroll-to="'#features'"
+            >Features</a
+          >
           <a href="#pricing" class="px-5">Pricing</a>
-          <a href="#resources" class="px-5">Resources</a>
+          <a href="#resources" class="px-5" v-scroll-to="'#resources'"
+            >Resources</a
+          >
         </div>
         <div class="flex items-center">
           <p class="px-10">Login</p>
           <buttons name="full">Sign Up</buttons>
         </div>
       </div>
+      <!-- mobile-menu -->
       <div class="mobile-menu lg:hidden">
+        <!-- close menu -->
         <svg
           v-if="showMenu"
           @click="toggleMenu"
@@ -35,6 +44,7 @@
             <path d="M.161 17.632L17.131.662l.708.706-16.97 16.97z" />
           </g>
         </svg>
+        <!-- hamburger menu -->
         <svg
           v-else
           @click="toggleMenu"
@@ -47,6 +57,7 @@
           </g>
         </svg>
 
+        <!-- menu-items -->
         <div
           v-if="showMenu"
           class="w-screen absolute top-17 right-0 z-10 flex justify-center items-start pt-10 h-screen"
@@ -54,11 +65,18 @@
           <div
             class="mobile-menu z-10 grid px-5 py-5 rounded-md bg-dark-violet text-white font-bold sm:w-1/4 w-2/3 shadow-md right-16"
           >
-            <router-link to="/" class="py-4">Features</router-link>
-            <router-link to="#about" class="py-4">Pricing</router-link>
-            <router-link to="#contact" class="pt-4 pb-8">Resources</router-link>
+            <router-link to="#features" class="py-4" v-scroll-to="'#features'"
+              >Features</router-link
+            >
+            <router-link to="" class="py-4">Pricing</router-link>
+            <router-link
+              to="#resources"
+              class="pt-4 pb-8"
+              v-scroll-to="'#resources'"
+              >Resources</router-link
+            >
             <hr class="opacity-20" />
-            <router-link to="#blog" class="pt-8 pb-4">Login</router-link>
+            <router-link to="" class="pt-8 pb-4">Login</router-link>
             <buttons name="full" class="pb-4">Sign Up</buttons>
           </div>
         </div>
@@ -84,6 +102,9 @@ export default defineComponent({
   methods: {
     toggleMenu() {
       this.showMenu = !this.showMenu;
+    },
+    toggleMenuDelay() {
+      setTimeout(this.toggleMenu, 100);
     },
   },
 });
