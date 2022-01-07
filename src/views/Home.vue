@@ -3,7 +3,7 @@
     <main-header />
     <hero />
     <shorten-form
-      class="flex w-10/12 sticky self-center inset-y-6/25 md:inset-y-11/40 lg:inset-y-13/50 xl:inset-y-1/3"
+      class="flex w-10/12 sticky self-center inset-y-6/25 md:inset-y-11/40 xl:inset-y-3/10"
     />
     <stats />
     <scroll-to-top

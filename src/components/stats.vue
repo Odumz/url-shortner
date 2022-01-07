@@ -1,6 +1,6 @@
 <template>
   <div class="grid py-28 lg:px-40 px-7 bg-gray bg-opacity-10" id="features">
-    <h1 class="font-black text-3xl text-very-dark-violet lg:pt-14 py-4">
+    <h1 class="font-black text-3xl text-very-dark-violet py-4">
       Advanced Statistics
     </h1>
     <p
