@@ -35,7 +35,7 @@ export default defineComponent({
   setup() {
     // const btn: any = document.getElementById("btn");
     window.onscroll = () => {
-      const btn: any = document.getElementById("btn: string");
+      const btn: any = document.getElementById("btn");
       if (document.documentElement.scrollTop > 100) {
         btn.classList.remove("hidden");
       } else {
